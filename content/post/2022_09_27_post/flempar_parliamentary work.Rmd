@@ -18,6 +18,10 @@ First, we will query for all debates on current affairs (one possible type of pa
 * date_range_from: the start date YYYY-MM-DD
 * date_range_to: the end date YYYY-MM-DD
 
+```{r eval=TRUE}
+2+2
+```
+
 ```{r eval=FALSE}
 work_b <- get_work(date_range_from="2022-01-01"
                     , date_range_to="2022-08-31")
